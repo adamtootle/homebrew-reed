@@ -17,7 +17,8 @@ class Reed < Formula
   end
 
   def install
-    bin.install "reed", "reed_reed.bundle"
+    libexec.install "reed", "reed_reed.bundle"
+    bin.write_exec_script libexec/"reed"
   end
 
   test do
