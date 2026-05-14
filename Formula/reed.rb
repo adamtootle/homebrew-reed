@@ -1,18 +1,18 @@
 class Reed < Formula
   desc "Edit markdown locally in your browser"
   homepage "https://github.com/adamtootle/reed"
-  version "1.0.3"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/adamtootle/reed/releases/download/v1.0.3/reed-macos-arm64.zip"
-      sha256 "5a8be58fae0e2095de9f6a046281e3597ca18721b1714ea875b192db2b57cd35"
+      url "https://github.com/adamtootle/reed/releases/download/v1.1.0/reed-macos-arm64.zip"
+      sha256 "17219470fb90a039d6f081027eedbd72c7ce5ef491c144405726e9676ca1fd3a"
     end
 
     on_intel do
-      url "https://github.com/adamtootle/reed/releases/download/v1.0.3/reed-macos-x86_64.zip"
-      sha256 "c69fbd9d57bd7c5a591201173e7c701a0190bbd0f1b9ced74020e142c2652df3"
+      url "https://github.com/adamtootle/reed/releases/download/v1.1.0/reed-macos-x86_64.zip"
+      sha256 "1af292de90d2adc5b5c08a090657d912f1ee5eba21c9df829dd529781cedb3e8"
     end
   end
 
